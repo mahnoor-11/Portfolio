@@ -41,6 +41,7 @@ h2{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(32px,5vw,44px)
 .facts div{padding:11px 0;border-bottom:1px solid var(--line);font-size:15px}
 .facts div:last-child{border:none}
 .facts b{display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:600}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.skill{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;gap:12px;align-items:center;font-weight:500;transition:.25s}.skill:hover{border-color:var(--gold);transform:translateY(-3px)}.skill i{font-style:normal;color:var(--gold);font-size:13px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;transition:.25s}
 .card:hover{transform:translateY(-5px);border-color:var(--gold)}
@@ -64,35 +65,48 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 0}
 </head>
 <body>
 <nav><div class="wrap"><a class="logo" href="#top">Mahnoor Arain</a>
-<ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li><li><button id="theme" aria-label="Switch theme">☾</button></li></ul></div></nav>
+<ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li><li><button id="theme" aria-label="Switch theme">☾</button></li></ul></div></nav>
 
 <header class="hero" id="top"><div class="wrap">
-<span class="tag">Web Developer · Quran Teacher</span>
+<span class="tag">Web Developer · Creative Professional</span>
 <h1>Websites built with <em>care</em>, for people who value trust.</h1>
-<p>I'm Mahnoor, a hafiza and aalima who also writes code. I build clean, fast, mobile-friendly websites for Islamic institutes, Quran teachers and small businesses.</p>
+<p>I'm Mahnoor Arain. I build clean, mobile-friendly websites for Quran academies, tutors and small businesses, and I create graphics and animation alongside.</p>
 <div class="btns"><a class="btn main" href="#projects">See my work</a><a class="btn ghost" href="#contact">Hire me</a></div>
 </div></header>
 
 <section id="about"><div class="wrap">
-<h2>About me</h2><p class="sub">Teaching first, coding alongside it.</p>
+<h2>About me</h2>
 <div class="about"><div>
-<p>I am Mahnoor Arain, a hafiza and aalima. I have taught the Quran both in person and online, so I know how much patience and clarity a good learning experience needs. I bring the same approach to my websites: simple to use, easy to read, and respectful of the people who use them.</p>
-<p>I completed a web development course and keep growing through self-study and real projects. Every project below is live, so you can open it and try it yourself.</p>
+<p>Hi, I'm Mahnoor Arain, a web developer and creative professional from Sindh, Pakistan. I build websites that are clean, responsive and easy to use, and I learn best by making real projects.</p>
+<p>Alongside web development, I'm building my skills in programming, prompt engineering, graphic design and animation.</p>
+<p>I'm also a Hafiza and Aalima, and I have taught the Quran both online and offline. This gives me a real understanding of what Quran academies, Islamic educators and educational organizations need, and I'd love to help them build a professional online presence.</p>
+<p>I'm open to working with small businesses, tutors and organizations that need a website or digital content. I start by understanding the purpose of each project, then build something practical around it.</p>
 </div>
 <div class="facts">
-<div><b>What I do</b>Web development with HTML, CSS and JavaScript</div>
-<div><b>Languages</b>Urdu and English websites, including right-to-left Urdu pages</div>
-<div><b>Teaching</b>Quran, in person and online</div>
 <div><b>Based in</b>Sindh, Pakistan, working remotely</div>
+<div><b>Background</b>Hafiza and Aalima, Quran teacher (online and offline)</div>
+<div><b>Open to</b>Quran academies, tutors, small businesses and organizations</div>
+<div><b>Contact</b>madigitalhub12@gmail.com</div>
 </div></div>
 </div></section>
 
+<section id="skills"><div class="wrap">
+<h2>Skills &amp; interests</h2><p class="sub">What I work with and keep growing in.</p>
+<div class="skills">
+<div class="skill"><i>◆</i>Web Development</div>
+<div class="skill"><i>◆</i>Programming &amp; Problem Solving</div>
+<div class="skill"><i>◆</i>Prompt Engineering</div>
+<div class="skill"><i>◆</i>Graphic Design</div>
+<div class="skill"><i>◆</i>Animation &amp; Visual Storytelling</div>
+<div class="skill"><i>◆</i>Website Design &amp; Content Structure</div>
+</div></div></section>
+
 <section id="projects"><div class="wrap">
-<h2>Projects</h2><p class="sub">Five live projects. Tap any card to open it.</p>
+<h2>Projects</h2><p class="sub">Five live projects. Tap any card to open it and try it yourself.</p>
 <div class="grid">
 <a class="card" href="https://mahnoor-11.github.io/HabitFlow/" target="_blank" rel="noopener"><div class="num">01</div><h3>HabitFlow</h3><p>An Islamic daily tracker with prayer times, a Quran page goal, dhikr, a Hijri calendar, water and sleep tracking, and a daily iman check-in.</p><div class="chips"><span>JavaScript</span><span>Hijri calendar</span><span>Dark mode</span></div><span class="live">Open live project →</span></a>
 <a class="card" href="https://mahnoor-11.github.io/planora/" target="_blank" rel="noopener"><div class="num">02</div><h3>Planora</h3><p>A dark productivity dashboard to plan tasks, build habits, set goals, keep notes and see progress in one place.</p><div class="chips"><span>Dashboard</span><span>Tasks &amp; goals</span><span>Analytics</span></div><span class="live">Open live project →</span></a>
-<a class="card" href="https://mahnoor-11.github.io/healthpulse/" target="_blank" rel="noopener"><div class="num">03</div><h3>HealthPulse</h3><p>A bilingual Urdu and English health awareness site for rural women, covering common illnesses, symptoms and precautions in simple language.</p><div class="chips"><span>Urdu RTL</span><span>Search</span><span>Accessible</span></div><span class="live">Open live project →</span></a>
+<a class="card" href="https://mahnoor-11.github.io/healthpulse/" target="_blank" rel="noopener"><div class="num">03</div><h3>HealthPulse</h3><p>A bilingual Urdu and English health awareness site for rural women, covering common illnesses, symptoms and precautions in simple language.</p><div class="chips"><span>Urdu &amp; English</span><span>Search</span><span>Accessible</span></div><span class="live">Open live project →</span></a>
 <a class="card" href="https://mahnoor-11.github.io/PixulRush/" target="_blank" rel="noopener"><div class="num">04</div><h3>PixelRush</h3><p>A coding quiz game for HTML, CSS and Python with three difficulty levels and a score summary at the end.</p><div class="chips"><span>Quiz logic</span><span>Levels</span><span>Scoring</span></div><span class="live">Open live project →</span></a>
 <a class="card" href="https://mahnoor-11.github.io/NeuroFlash/" target="_blank" rel="noopener"><div class="num">05</div><h3>NeuroFlash</h3><p>A brain age test made of four short games: number memory, memory cards, colour match and word scramble.</p><div class="chips"><span>Mini games</span><span>Timers</span><span>Interactive</span></div><span class="live">Open live project →</span></a>
 </div></div></section>
@@ -102,7 +116,6 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 0}
 <div class="svc">
 <div><h3>Websites for Quran academies</h3><p>Course pages, class timings, teacher profiles and an easy way for students to contact you.</p></div>
 <div><h3>Business and personal sites</h3><p>A clean landing page or portfolio that looks good on every phone.</p></div>
-<div><h3>Urdu and English pages</h3><p>Bilingual sites with proper right-to-left Urdu text that reads well.</p></div>
 <div><h3>Fixes and improvements</h3><p>Already have a site? I can tidy the layout, fix bugs and make it faster.</p></div>
 </div></div></section>
 
